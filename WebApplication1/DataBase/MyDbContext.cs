@@ -22,6 +22,9 @@ public class MyDbContext : DbContext
     modelBuilder.Entity<CoffeeInventory>()
       .Property(ci => ci.Quantity)
       .IsRequired();
+    modelBuilder.Entity<CoffeeInventory>()
+      .Property(ci => ci.BuyerName)
+      .IsRequired();
 
     modelBuilder.Entity<CoffeeInventory>()
       .Property(ci => ci.Id)
