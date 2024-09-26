@@ -1,0 +1,26 @@
+# Ignorar la carpeta de configuración de Visual Studio
+.vs/
+
+# Ignorar los archivos de compilación y binarios
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+
+# Ignorar archivos de configuración de usuario
+*.user
+*.suo
+
+# Ignorar archivos de paquetes
+packages/
+
+# Ignorar archivos de caché de restauración de NuGet
+**/packages/
+!**/packages/build/
+!**/packages/tools/
+*.nupkg
+*.nuspec
+
+# Ignorar archivos temporales
+*.tmp
+*.temp
